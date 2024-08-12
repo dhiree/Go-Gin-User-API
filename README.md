@@ -58,7 +58,7 @@ This project is a simple User Management API built with Go and the Gin framework
 1. **Create User**
 
     ```bash
-    curl -X POST http://localhost:8080/users -H "Content-Type: application/json" -d '{"name": "John Doe", "email": "john@example.com", "password": "password123"}'
+    curl -X POST http://localhost:8080/users -H "Content-Type: application/json" -d '{"name": "Dheerendra Singh", "email": "bhandaridheere@gmail.com", "password": "password123"}'
     ```
 
 2. **Get User by ID**
@@ -70,7 +70,7 @@ This project is a simple User Management API built with Go and the Gin framework
 3. **Update User**
 
     ```bash
-    curl -X PUT http://localhost:8080/users/60d5f483e3d3f4e8d4c1b8e9 -H "Content-Type: application/json" -d '{"name": "Jane Doe"}'
+    curl -X PUT http://localhost:8080/users/60d5f483e3d3f4e8d4c1b8e9 -H "Content-Type: application/json" -d '{"name": "Dheerendra Singh"}'
     ```
 
 4. **Delete User**
